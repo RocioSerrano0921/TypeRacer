@@ -1,1 +1,54 @@
+:root {
+    --primary-color: #ff8400;
+    --gray-color: #393d42;
+}
 
+/* Fonts */
+body {
+    font-family: 'Nunito', 'Alegreya', serif;
+    color: var(--bs-gray) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Alegreya', 'Nunito', serif;
+}
+header {
+    background-color: var(--primary-color);
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: var(--gray-color);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #e67300;
+    border-color: #e67300;
+}
+
+#game-buttons .btn {
+    background-color: #ffffff;
+    border-color: var(--primary-color);
+    color: var(--gray-color);
+}
+
+.logo {
+    color: #ffffff !important;
+    font-family: 'Alegreya', 'Nunito', serif;
+}
+
+/* Results section */
+#results-section .card {
+    box-shadow: 0 0 8px 0 var(--primary-color);
+}
+#results-section .card-body {
+    color: var(--gray-color) !important;
+}

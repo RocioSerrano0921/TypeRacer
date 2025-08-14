@@ -58,6 +58,7 @@
                             <p class="mb-3">Test your typing speed by typing the text shown below:</p>
                             <div class="input-windowtype mb-3">
                                 <div id="generated-text" class="p-3 border rounded bg-light">
+                                    <span id="sample-text">The quick brown fox jumps over the lazy dog.</span>
                                     <!-- JS will generate text here -->
                                 </div>
                             </div>
@@ -66,7 +67,7 @@
                                     placeholder="Click the start button to begin the test" rows="3"
                                     autocomplete="off"></textarea>
                             </div>
-                            <div class="row justify-content-center mb-3">
+                            <div id="game-buttons" class="row justify-content-center mb-3">
                                 <div class="col-auto">
                                     <button type="button" id="start-btn" class="btn btn-success me-2">Start</button>
                                 </div>
