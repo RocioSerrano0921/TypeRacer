@@ -1,3 +1,6 @@
+/* Google Fonts: Alegreya & Nunito */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&family=Nunito:wght@400;700&display=swap');
+
 :root {
     --primary-color: #ff8400;
     --gray-color: #393d42;
